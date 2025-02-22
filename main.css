@@ -1,67 +1,46 @@
-
-
 body{
-    color: #fff;
-    background: #FE3747;
+    background: slategray;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    -webkit-font-smoothing: antialiased; 
-}
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
     
 }
-h2{
-    display: none;
-}
-.main{
-    width: 50%;
-    margin: 50px auto;
-}
 
-p{
+.container {
+    position: relative;
+}
+  
+h1 {
+    color: white;
+    background: black;
+    position: relative;
+    z-index: 1;
+    margin: 15px 350px 5px 350px;
+   border: 2px  solid black;
+}
+  
+p {
+    position: center;
+    top: 100%; /* umístí odstavec přesně pod h1 */
     line-height: 22px;
-   margin: 50px auto;
 }
 
-a{
-    color: #FE3747;
-    background: #fff;
-    text-decoration: none;
-    padding: 2px 6px 3px 6px;
-    border-radius: 3px;
-    font-weight: bold;
-    display: inline-block ;
-
+.profile{
+    padding-top: -25px;
+    margin-left: -300px;
 }
 
-.hightlight{
-    color: #bada55;
+h5{
+    margin-left: -25px;
 }
 
-a:hover{
-    background: #75c6c5;
+.data{
+    margin-left: 20px;
 }
 
-.special{
-    background: #75c6c5;
-    color: #333;
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 14px solid #fff;
-    height: 75px;
-    overflow: scroll;
-    
+.tea{
+    margin-left: 60px;
 }
 
-strong{
-    display: block;
-}
-
-small{
-    font-weight: bold;
-    color: #bada55;
+.info{
+    margin: 100px 25%;
 }
